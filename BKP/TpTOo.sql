@@ -99,21 +99,6 @@ CREATE TABLE public.cliente (
 
 ALTER TABLE public.cliente OWNER TO postgres;
 
---
--- Data for Name: atividade; Type: TABLE DATA; Schema: public; Owner: postgres
---
-
-COPY public.atividade (id_at, nomeat, email, dataat, tempo, duracao, distancia, kcal, passos, velocidade_media, velocidade_max, ritmo_medio, ritmo_max, menor_elev, maior_elev, ritmos) FROM stdin;
-\.
-
-
---
--- Data for Name: cliente; Type: TABLE DATA; Schema: public; Owner: postgres
---
-
-COPY public.cliente (id, nome, sexo, altura, peso, dtnasc, email) FROM stdin;
-\.
-
 
 --
 -- Name: seq-atividade; Type: SEQUENCE SET; Schema: public; Owner: postgres
